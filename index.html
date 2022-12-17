@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>canvas: paint</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+
+<body>
+
+    <main>
+        <div>
+            <canvas width="900" height="900">
+        </div>
+        <div>
+            <label>
+                Color:
+                <select name="colorPicker" id="colorPicker">
+                    <option value="#000">Black</option>
+                    <option value="#F00">Red</option>
+                    <option value="#FFF">White</option>
+                    <option value="#00F">Blue</option>
+                    <option value="#0F0">Green</option>
+                    <option value="#060">Dark Green</option>
+                    <option value="#FF0">Yellow</option>
+                    <option value="#F0F">Pink</option>
+                    <option value="#888">Light Grey</option>
+                    <option value="#333">Dark Grey</option>
+
+                </select>
+
+                <label>
+                    line:
+                    <select name="linePicker" id="linePicker">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="5">5</option>
+                        <option value="8">8</option>
+                        <option value="10">10</option>
+                        <option value="15">15</option>
+                        <option value="20">20</option>
+                        <option value="25">25</option>
+                        <option value="30">30</option>
+                        <option value="35">35</option>
+                    </select>
+                </label>
+            </label>
+            <button type="button" class="reset">Reset</button>
+        </div>
+        </canvas>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

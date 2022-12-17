@@ -1,0 +1,9 @@
+main {
+  max-width: 906px;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+canvas {
+  border: 3px dashed #000;
+}
